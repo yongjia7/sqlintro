@@ -14,5 +14,5 @@
 -- | 2019 | Minnesota Twins        | 101  |
 -- | 2019 | New York Yankees       | 103  |
 -- +------+------------------------+------+
-
+SELECT Name, wins, year FROM teams WHERE wins > 100;
 
